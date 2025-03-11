@@ -1,4 +1,4 @@
-![Screenshot 2025-03-11 184625](https://github.com/user-attachments/assets/c8941d38-95ef-4337-a785-41f386e1afff)# Dynamic-Resume-Builder
+# Dynamic-Resume-Builder
 This Resume Builder is a web-based application that allows users to create, preview, and manage their resumes dynamically. The application provides an interactive form where users can enter their personal details, education, skills, work experience, and projects. As they fill in the details, a real-time preview of the resume is generated.
 
 🚀 Features
