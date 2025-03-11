@@ -22,10 +22,10 @@ This Resume Builder is a web-based application that allows users to create, prev
 ## 📷 Preview  
 ![image](https://github.com/user-attachments/assets/f7d05281-7c54-4359-8c6d-81e6422a527e)
 
-📜 Future Enhancements
-🔹 PDF Export Option for downloading the resume
-🔹 More design templates for better customization
-🔹 Drag-and-drop functionality for reordering sections
+## 📜 Future Enhancements  
+🔹 PDF Export Option for downloading the resume  
+🔹 More design templates for better customization  
+🔹 Drag-and-drop functionality for reordering sections  
 
-💻 Contributing
+## 💻 Contributing  
 Contributions are welcome! Feel free to fork this repository and make improvements.
