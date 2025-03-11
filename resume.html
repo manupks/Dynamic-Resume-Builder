@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume Builder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="split left"> 
+    <form id="myForm">
+        <h1>Resume Builder</h1>
+        <!-- Personal Information -->
+        <label for="fname">Enter your first name: </la  abel><br>
+        <input type="text" id="fname" name="fname" placeholder="e.g., Mohan" oninput="updatePreview()" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="e.g., Kumar" oninput="updatePreview()" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="e.g., mohan**@gmail.com" oninput="updatePreview()" required><br>
+        <label for="ph">Phone Number: (Do not enter +91)</label><br>
+        <input type="tel" id="ph" name="ph" pattern="[0-9]{10}" placeholder="78*******5" title="Enter a 10-digit phone number" oninput="updatePreview()" required><br>
+        <label for="ps">Describe about yoursel in few lines (Profile summary):</label><br>
+        <textarea id="ps" name="ps" rows="6" cols="50" oninput="updatePreview()"></textarea>
+
+        <!-- Education Section -->
+        <div class="dynamic-section">
+            <h2><u>Education</u></h2>
+            <div id="education"></div>
+            <button type="button" onclick="addEducation()" title="Add an education entry">Add Education</button>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="dynamic-section">
+            <h2><u>Skills</u></h2>
+            <label><input type="checkbox" name="skill" value="python" oninput="updatePreview()">Python<br></label>
+            <label><input type="checkbox" name="skill" value="html" oninput="updatePreview()">HTML<br></label>
+            <label><input type="checkbox" name="skill" value="css" oninput="updatePreview()">CSS<br></label>
+            <label><input type="checkbox" name="skill" value="Java" oninput="updatePreview()">Java<br></label>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="dynamic-section">
+            <h2><u>Experience</u></h2>
+            <div id="experience"></div>
+            <button type="button" onclick="addExperience()" title="Add an experince entry">Add Experience</button>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="dynamic-section">
+            <h2><u>Project</u></h2>
+            <div id="h"></div>
+            <button type="button" onclick="addProject()" title="Add a new project">Add Project</button><br><br><br>
+        </div>
+
+        <!-- Generate and Clear Buttons -->
+        <div style="text-align: center;">
+            <button type="submit" style="background-color: rgb(0, 17, 255); width: 40%; padding: 10px;" id="generateButton" >Generate Resume</button>
+            <button type="button" id="clearButton" style="background-color: #f52727; width: 40%; padding: 10px;">Clear</button>
+        </div>
+    </div>
+    <div class="split right">
+        <!-- Preview Section -->
+        <div id="resumePreview" class="preview">
+            <h1>Resume Preview</h1>
+            <div id="previewName"></div>
+            <div id="previewEmail"></div>
+            <div id="previewPhone"></div>
+            <div id="previewSummary"></div>
+            <div id="previewEducation"></div>
+            <div id="previewskill"></div>
+            <div id="previewExperience"></div>
+            <div id="previewProjects"></div>
+        </div></div>
+    </form>
+
+    <script src="resume.js"></script>
+</body>
+</html>
