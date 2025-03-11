@@ -20,7 +20,7 @@ This Resume Builder is a web-based application that allows users to create, prev
 4. Use the **Clear** button to reset everything if needed.  
 
 ## 📷 Preview  
-![image](https://github.com/user-attachments/assets/f7d05281-7c54-4359-8c6d-81e6422a527e)
+![Screenshot 2025-03-11 184625](https://github.com/user-attachments/assets/96f69623-6721-4eb8-ae2d-4b7bcb2f918a)
 
 ## 📜 Future Enhancements  
 🔹 PDF Export Option for downloading the resume  
